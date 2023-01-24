@@ -25,25 +25,30 @@ function factorial(num){
 // Your function should accept one argument, an index into the sequence (where 0 corresponds to the initial value, 4 corresponds to the value four later, etc).
 //  Examples: fibonacci(0) = 0 (given), fibonacci(1) = 1 (given), fibonacci(2) = 1 (fib(0)+fib(1), or 0+1), fibonacci(3) = 2 (fib(1) + fib(2)3, or 1+1),
 // fibonacci(4) = 3 (1+2), fibonacci(5) = 5 (2+3), fibonacci(6) = 8 (3+5), fibonacci(7) = 13 (5+8).  
-// function fibonacci(index){
-//     var previousNum = 0
-//     var currentNum = 1
-//     var temp = 0
-//     if(index == 0){
-//         return previousNum
-//     }
-//     for(let i = 1; i < index; i++){
-//         temp = currentNum
-//         currentNum += previousNum
-//         previousNum = temp
-//     }
-//     return currentNum
-// }
-
 function fibonacci(index){
-    // try to solve using recursion
+    var previousNum = 0
+    var currentNum = 1
+    var temp = 0
+    if(index < 2){
+        return index
+    }
+    for(let i = 2; i <= index; i++){
+        temp = currentNum
+        currentNum += previousNum
+        previousNum = temp
+    }
+    return currentNum
 }
 // console.log(fibonacci(7))
+
+function recursiveFibonacci(index){     // taken from the formula F(n) = F(n-1) + F(n-2) F(0) = 0 F(1) = 1
+    if(index < 2){
+        return index
+    }else{
+        return recursiveFibonacci(index - 1) + recursiveFibonacci(index - 2)
+    }
+}
+// console.log(recursiveFibonacci(7))
 
 // Array: Second-to-Last: Return the second-to-last element of an array. Given [42, true, 4, "Liam", 7], return "Liam".  If array is too short, return null.
 function secondToLast(arr){
@@ -70,8 +75,12 @@ function secondLargest(arr){
     if(arr.length < 2){
         return null
     }
-    // need to finish this
+    var copy = [...arr]
+    var firstMaxPosition = copy.indexOf(Math.max(...copy))
+    copy[firstMaxPosition] = null
+    return Math.max(...copy)
 }
+// console.log(secondLargest([42,1,4,3.14,7]))
 
 // Double Trouble: Create a function that changes a given array to list each existing element twice, retaining original order. 
 // Convert [4, "Ulysses", 42, false] to [4,4, "Ulysses", "Ulysses", 42, 42, false, false].
