@@ -1,12 +1,13 @@
 .nav{
     background-color: #6495ED;
     height: 100px;
-    width: 960px;
+    width: 1650px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 h1{
+    width: 250px;
     font-family:"PT Sans Narrow";
     font-size: 30px;
     color: white;
@@ -16,7 +17,7 @@ img{
 }
 ul{
     display: flex;
-    width: 500px;
+    width: 1000px;
     justify-content: space-between;
 }
 li{
