@@ -1,0 +1,28 @@
+.nav{
+    background-color: #6495ED;
+    height: 100px;
+    width: 960px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-family:"PT Sans Narrow";
+    font-size: 30px;
+    color: white;
+}
+img{
+    max-width: 90px;
+}
+ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
