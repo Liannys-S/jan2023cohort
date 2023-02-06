@@ -17,7 +17,12 @@ img {
 }
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-image: radial-gradient(circle,red,orange,yellow,green,blue,indigo,violet);
+    color: white;
+}
+header span{
+    color: black;
 }
 header .row {
     width: 100%;
@@ -35,9 +40,16 @@ header div {
     align-items: center;
     font-size: 1.2em;    
 }
-header div a {
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-image: linear-gradient(to right,#63A663,#01C801,#254B25);
+}
+nav a{
     text-decoration: none;
     padding: 1em;
+    color: white;
 }
 main {
     display: flex;
@@ -48,23 +60,47 @@ main {
 }
 .squishyRow {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 main .row .column {
     padding: 1em;
 }
-
+main img{
+    width:100px;
+}
 main .row .column .row .column img {
     border-radius: 50%;
+}
+main p{
+    text-align: center;
 }
 p {
     margin: .5em;
     font-size: 1.1em;
+}
+main h3{
+    background-image: linear-gradient(to right,#63A663,#01C801,#254B25);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+main button{
+    background-image: linear-gradient(to right, #114543,#66CBBE);
+}
+main .miniSquish{
+    border: 2px solid purple;
 }
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.footerRow{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 footer img {
     border-radius: 50%;
@@ -73,7 +109,11 @@ footer img {
 #sale {
     padding: 1em;
     margin: 1em;
+    border: 2px solid teal;
 }
 #sale h3 {
     max-width: 40%;
+}
+#sale button{
+    background-image: linear-gradient(to right, #114543,#66CBBE);
 }
