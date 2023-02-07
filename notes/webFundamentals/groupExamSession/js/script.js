@@ -26,7 +26,7 @@ function salePrices(element) {
     // console.log('button click')
     document.getElementById('sale').style.display = "none"
     let price = document.getElementsByClassName('price')
-    console.log(price)
+    // console.log(price)
     for(let i=0;i<price.length;i++){
         let temp = price[i].innerText
         // console.log(price[i].innerText)
