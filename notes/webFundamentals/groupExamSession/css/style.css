@@ -5,6 +5,11 @@
 img {
     max-height: 200px;
 }
+button {
+    background: #90e6d7;
+    background: linear-gradient(335deg, #90e6d7 0%, #23a690 50%, #0c4239 100%);
+    border: 2px solid #23a690;
+}
 .row {
     display: flex;
     flex-direction: row;
@@ -14,18 +19,38 @@ img {
 .column {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+        border: 4px groove #23a690;
 }
 header {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD:notes/webFundamentals/groupExamSession/css/style.css
     background-image: radial-gradient(circle,red,orange,yellow,green,blue,indigo,violet);
     color: white;
 }
 header span{
     color: black;
+=======
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, #000000 0%, #996633 10%, #9d159d 20%, #4b0082 30%, #0000ff 40%, #00ffff 50%, #00cc00 60%, #ffff00 70%, #ffa500 80%, #ff0000 90%, #ffffff 100%);
+>>>>>>> 85cec653e56f1676bd84bd1bffe8843abbf96f12:lectures/webFundamentals/week2/day1/groupExamSession/css/style.css
 }
 header .row {
     width: 100%;
+    justify-content: space-around;
+    color: white;
 }
 header .row img {
     border-radius: 50%;
@@ -34,12 +59,17 @@ header .row img {
     color: black;
     font-size: 1.2em;
 }
-header div {
-    display: flex;
+nav {
+        display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
+    background: #2c322c;
+    background: linear-gradient(335deg, #2c322c 0%, #00cc00 50%, #71a071 100%);
+    width: 100%;
     font-size: 1.2em;    
 }
+<<<<<<< HEAD:notes/webFundamentals/groupExamSession/css/style.css
 nav{
     display: flex;
     justify-content: space-around;
@@ -47,6 +77,10 @@ nav{
     background-image: linear-gradient(to right,#63A663,#01C801,#254B25);
 }
 nav a{
+=======
+nav a {
+    color: white;
+>>>>>>> 85cec653e56f1676bd84bd1bffe8843abbf96f12:lectures/webFundamentals/week2/day1/groupExamSession/css/style.css
     text-decoration: none;
     padding: 1em;
     color: white;
@@ -60,16 +94,34 @@ main {
 }
 .squishyRow {
     width: 100%;
+<<<<<<< HEAD:notes/webFundamentals/groupExamSession/css/style.css
     display: flex;
     justify-content: space-between;
+=======
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.miniSquish {
+    border: 4px groove #9d159d;
+>>>>>>> 85cec653e56f1676bd84bd1bffe8843abbf96f12:lectures/webFundamentals/week2/day1/groupExamSession/css/style.css
 }
 main .row .column {
     padding: 1em;
 }
+<<<<<<< HEAD:notes/webFundamentals/groupExamSession/css/style.css
 main img{
     width:100px;
+=======
+main .row .column h3 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #2c322c;
+    background: linear-gradient(335deg, #2c322c 0%, #00cc00 50%, #71a071 100%);
+>>>>>>> 85cec653e56f1676bd84bd1bffe8843abbf96f12:lectures/webFundamentals/week2/day1/groupExamSession/css/style.css
 }
 main .row .column .row .column img {
+    max-width: 100px;
     border-radius: 50%;
 }
 main p{
@@ -79,6 +131,7 @@ p {
     margin: .5em;
     font-size: 1.1em;
 }
+<<<<<<< HEAD:notes/webFundamentals/groupExamSession/css/style.css
 main h3{
     background-image: linear-gradient(to right,#63A663,#01C801,#254B25);
     width: 100%;
@@ -90,12 +143,20 @@ main button{
 }
 main .miniSquish{
     border: 2px solid purple;
+=======
+.price {
+    color: #9d159d;
+>>>>>>> 85cec653e56f1676bd84bd1bffe8843abbf96f12:lectures/webFundamentals/week2/day1/groupExamSession/css/style.css
 }
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 95%;
+}
+footer .footerRow {
+    width: 100%;
 }
 .footerRow{
     display: flex;
@@ -107,6 +168,7 @@ footer img {
     max-width: 75px;
 }
 #sale {
+    border: 4px groove #23a690;
     padding: 1em;
     margin: 1em;
     border: 2px solid teal;

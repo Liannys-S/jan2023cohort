@@ -2,28 +2,45 @@ console.log('Wired up')
 
 function changeImg(element) {
     console.log('activated mouse event')
+<<<<<<< HEAD:notes/webFundamentals/groupExamSession/js/script.js
     element.src = "./images/yankeeBoy.png"
 }
 function changeBack(element) {
     // console.log('new event')
     element.src ="./images/breezee.png"
+=======
+    // console.log(element)
+    // console.log(element.src)
+    // console.log(element.alt)
+    if(element.alt == "Breezee") {
+        element.src = "./images/yankeeBoy.png"
+        element.alt = "Yankee Boy"
+    } else {
+        element.src = "./images/breezee.png"
+        element.alt = "Breezee"
+    }
+>>>>>>> 85cec653e56f1676bd84bd1bffe8843abbf96f12:lectures/webFundamentals/week2/day1/groupExamSession/js/script.js
 }
+// function changeBack(element) {
+//     console.log('new event')
+// }
 let count = 0;
 function addToCart(element) {
     console.log('button clicked')
     // let count = 0;
     if (count === 0) {
         count++
-        // console.log('if triggered', count)
+        console.log('if triggered', count)
     } else {
         count++
-        // console.log('else triggered', count)
+        console.log('else triggered', count)
     }
     document.getElementById('cart').innerText = count
 }
 
 function salePrices(element) {
     // console.log('button click')
+<<<<<<< HEAD:notes/webFundamentals/groupExamSession/js/script.js
     document.getElementById('sale').style.display = "none"
     let price = document.getElementsByClassName('price')
     // console.log(price)
@@ -34,4 +51,10 @@ function salePrices(element) {
         // console.log(temp)
         price[i].textContent = temp
     }
+=======
+    document.getElementById('sale').style.display = 'none'
+    let price = document.getElementsByClassName('price')
+    console.log(price)
+    console.log(price[0])
+>>>>>>> 85cec653e56f1676bd84bd1bffe8843abbf96f12:lectures/webFundamentals/week2/day1/groupExamSession/js/script.js
 }
