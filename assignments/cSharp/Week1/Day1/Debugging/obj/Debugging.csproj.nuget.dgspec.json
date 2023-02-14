@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Fundamentals2\\Fundamentals2.csproj": {}
+    "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Debugging\\Debugging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Fundamentals2\\Fundamentals2.csproj": {
+    "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Debugging\\Debugging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Fundamentals2\\Fundamentals2.csproj",
-        "projectName": "Fundamentals2",
-        "projectPath": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Fundamentals2\\Fundamentals2.csproj",
+        "projectUniqueName": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Debugging\\Debugging.csproj",
+        "projectName": "Debugging",
+        "projectPath": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Debugging\\Debugging.csproj",
         "packagesPath": "C:\\Users\\lsnow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Fundamentals2\\obj\\",
+        "outputPath": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week1\\Day1\\Debugging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lsnow\\AppData\\Roaming\\NuGet\\NuGet.Config"
