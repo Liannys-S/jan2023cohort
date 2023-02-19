@@ -10,12 +10,13 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/assignments/cSharp/Week1/Day4/GameDeveloper1/bin/Debug/net6.0/GameDeveloper1.dll",
+            "program": "${workspaceFolder}/assignments/cSharp/Week1/Day5/GameDeveloper3/bin/Debug/net6.0/GameDeveloper3.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/assignments/cSharp/Week1/Day4/GameDeveloper1",
+            "cwd": "${workspaceFolder}/assignments/cSharp/Week1/Day5/GameDeveloper3",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "externalTerminal",
             "stopAtEntry": false
+            
         },
         {
             "name": ".NET Core Attach",
