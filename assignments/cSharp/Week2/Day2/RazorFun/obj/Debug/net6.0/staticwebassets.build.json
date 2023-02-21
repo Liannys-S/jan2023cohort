@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "zXo24FRM3TcVqy1s06whZ6tEDa6xXS1V7jNoRsENgnU=",
+  "Source": "RazorFun",
+  "BasePath": "_content/RazorFun",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorFun\\wwwroot",
+      "Source": "RazorFun",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\RazorFun\\wwwroot\\",
+      "BasePath": "_content/RazorFun",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\RazorFun\\wwwroot\\css\\style.css",
+      "SourceId": "RazorFun",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\RazorFun\\wwwroot\\",
+      "BasePath": "_content/RazorFun",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\RazorFun\\wwwroot\\css\\style.less",
+      "SourceId": "RazorFun",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\RazorFun\\wwwroot\\",
+      "BasePath": "_content/RazorFun",
+      "RelativePath": "css/style.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.less"
+    }
+  ]
+}
