@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "t//KEudYswpH1OnGv4BiXKgnVFDj5C5bIYwDMAG7wZU=",
+  "Source": "TimeDisplay",
+  "BasePath": "_content/TimeDisplay",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TimeDisplay\\wwwroot",
+      "Source": "TimeDisplay",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\TimeDisplay\\wwwroot\\",
+      "BasePath": "_content/TimeDisplay",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\TimeDisplay\\wwwroot\\css\\style.css",
+      "SourceId": "TimeDisplay",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\TimeDisplay\\wwwroot\\",
+      "BasePath": "_content/TimeDisplay",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\TimeDisplay\\wwwroot\\css\\style.less",
+      "SourceId": "TimeDisplay",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\jan2023cohort\\assignments\\cSharp\\Week2\\Day2\\TimeDisplay\\wwwroot\\",
+      "BasePath": "_content/TimeDisplay",
+      "RelativePath": "css/style.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.less"
+    }
+  ]
+}
