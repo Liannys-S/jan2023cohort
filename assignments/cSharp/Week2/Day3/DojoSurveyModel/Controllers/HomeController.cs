@@ -31,8 +31,10 @@ public class HomeController : Controller
     
     [HttpPost("/survey")]
     public IActionResult Survey(User user){
-        
-        return View("results", user);
+        if(ModelState.IsValid){
+            return View("Results",user);
+        }
+        return View("Index", user);
     }
     
     [HttpGet("/results")]
