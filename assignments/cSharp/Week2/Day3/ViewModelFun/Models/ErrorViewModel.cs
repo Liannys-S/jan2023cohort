@@ -1,4 +1,4 @@
-namespace DojoSurvey.Models;
+namespace ViewModelFun.Models;
 
 public class ErrorViewModel
 {

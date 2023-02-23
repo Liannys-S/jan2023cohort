@@ -17,5 +17,4 @@ namespace DojoSurvey.Controllers;
             ViewBag.Comment = comment;
             return View();
         }
-
     }

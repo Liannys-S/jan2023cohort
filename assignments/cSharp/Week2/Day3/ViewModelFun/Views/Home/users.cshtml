@@ -1,7 +1,7 @@
 <h1>Here are some users!</h1>
-@model List<string>
+@model List<User>
     @{
-        foreach(string user in Model){
-            <h3>@user</h3>
+        foreach(var user in Model){
+            <h3>@user.Name</h3>
         }
     }

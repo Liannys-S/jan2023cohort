@@ -26,17 +26,16 @@ public class HomeController : Controller
     }
     [HttpGet("/users")]
     public IActionResult Users(){
-        List<string> users = new List<string>();
-        users.Add("Moose Phillips");
-        users.Add("Sarah");
-        users.Add("Jerry");
-        users.Add("Rene Ricky");
-        users.Add("Barbara");
-        return View(users);
+        List<User> listUser = new List<User>(){
+            new User("Joslyn"),
+            new User("Emily"),
+            new User("Liannys"),
+        };
+        return View(listUser);
     }
     [HttpGet("/user")]
-        public IActionResult User(User user){
-            user.Name = "Liannys";
+        public IActionResult User(){
+            User user = new User("Liannys");
             return View(user);
         }
     
