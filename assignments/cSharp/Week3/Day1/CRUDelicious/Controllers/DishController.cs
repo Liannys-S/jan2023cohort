@@ -48,8 +48,7 @@ public class DishController : Controller
     [HttpPost("/dish/{dishId}/update")]
     public IActionResult Update(Dish editedDish, int dishId){
         if(!ModelState.IsValid){
-            // editedDish.DishId = dishId;
-            // return View("Edit", editedDish);
+            // return View("Edit", dishId);
             
             //instead of doing the above you can do this. this reuses the Edit routes functionality, but doesn't create a new request/response cycle, so error messages persist
             //if you use this method, you NEED to make sure that the name of the cshtml file is not defaulted in the "return View()" line of code. write the name in the view 
