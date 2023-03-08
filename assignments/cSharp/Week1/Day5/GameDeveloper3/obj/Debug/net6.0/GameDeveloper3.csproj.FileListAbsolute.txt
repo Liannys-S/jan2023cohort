@@ -1,0 +1,15 @@
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\bin\Debug\net6.0\GameDeveloper3.exe
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\bin\Debug\net6.0\GameDeveloper3.deps.json
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\bin\Debug\net6.0\GameDeveloper3.runtimeconfig.json
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\bin\Debug\net6.0\GameDeveloper3.dll
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\bin\Debug\net6.0\GameDeveloper3.pdb
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\GameDeveloper3.csproj.AssemblyReference.cache
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\GameDeveloper3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\GameDeveloper3.AssemblyInfoInputs.cache
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\GameDeveloper3.AssemblyInfo.cs
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\GameDeveloper3.csproj.CoreCompileInputs.cache
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\GameDeveloper3.dll
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\refint\GameDeveloper3.dll
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\GameDeveloper3.pdb
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\GameDeveloper3.genruntimeconfig.cache
+C:\Users\lsnow\OneDrive\Desktop\jan2023cohort\assignments\cSharp\Week1\Day5\GameDeveloper3\obj\Debug\net6.0\ref\GameDeveloper3.dll
