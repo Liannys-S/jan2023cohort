@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿{
   "iisSettings": {
     "windowsAuthentication": false,
@@ -26,3 +27,33 @@
     }
   }
 }
+=======
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:38713",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "CRApp": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5260",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+>>>>>>> 1def53ab125148c20df1151b159c23eec6daecf7
